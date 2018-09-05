@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./favicon.ico">
+
+    <!-- Title -->
+    <title>Template</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+
+    <!-- GoogleFont -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../style/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <nav class="site-header sticky-top py-1">
+        <div class="container d-flex flex-column flex-md-row justify-content-between">
+            <a class="py-2 d-none d-md-inline-block" href="#">
+                <img src="../image/icon/logo.png" onmouseover="this.src='../image/icon/logo-action.png'" onmouseout="this.src='../image/icon/logo.png'">
+            </a>
+            <a class="py-2 d-none d-md-inline-block" href="#">
+                <img src="../image/icon/clothes.png" onmouseover="this.src='../image/icon/clothes-action.png'" onmouseout="this.src='../image/icon/clothes.png'">
+            </a>
+            <a class="py-2 d-none d-md-inline-block" href="#">
+                <img src="../image/icon/shoes.png" onmouseover="this.src='../image/icon/shoes-action.png'" onmouseout="this.src='../image/icon/shoes.png'">
+            </a>
+            <a class="py-2 d-none d-md-inline-block" href="#">
+                <img src="../image/icon/fields.png" onmouseover="this.src='../image/icon/fields-action.png'" onmouseout="this.src='../image/icon/fields.png'">
+            </a>
+            <a class="py-2 d-none d-md-inline-block" href="#">
+                <img src="../image/icon/cart.png" onmouseover="this.src='../image/icon/cart-action.png'" onmouseout="this.src='../image/icon/cart.png'">
+            </a>
+        </div>
+    </nav>
+
+    <div class="container products-container">
+        <!-- Products -->
+        <div class="row products-section">
+            <div class="col">
+                <h1 class="d-inline-block">ALL PRODUCTS</h1>
+                <div class="d-inline-block">(80 products)</div>
+            </div>
+        </div>
+        <!-- SideBar -->
+        <div class="row products-section">
+            <div class="sidebar col col-lg-3">
+                <div class="sidebar_container">
+                    <div class="sidebar-type">Gender</div>
+                    <ul class="sidebar-content">
+                        <li><a title="Men" href="#"><span>Men</span><span>(773)</span></a></li>
+                        <li><a title="Women" href="#"><span>Women</span><span>(773)</span></a></li>
+                        <li><a title="Kids" href="#"><span>Kids</span><span>(773)</span></a></li>
+                    </ul>
+                </div>
+                <div class="sidebar_container">
+                    <div class="sidebar-type">Size</div>
+                    <ul class="sidebar-content">
+                        <li><a title="Men" href="#"><span>Men</span><span>(773)</span></a></li>
+                        <li><a title="Women" href="#"><span>Women</span><span>(773)</span></a></li>
+                        <li><a title="Kids" href="#"><span>Kids</span><span>(773)</span></a></li>
+                    </ul>
+                </div>
+                <div class="sidebar_container">
+                    <div class="sidebar-type">Price</div>
+                    <ul class="sidebar-content">
+                        <li><a title="Men" href="#"><span>Men</span><span>(773)</span></a></li>
+                        <li><a title="Women" href="#"><span>Women</span><span>(773)</span></a></li>
+                        <li><a title="Kids" href="#"><span>Kids</span><span>(773)</span></a></li>
+                    </ul>
+                </div>
+                <div class="sidebar_container">
+                    <div class="sidebar-type">Color</div>
+                    <ul class="sidebar-content">
+                        <li><a title="Men" href="#"><span>Men</span><span>(773)</span></a></li>
+                        <li><a title="Women" href="#"><span>Women</span><span>(773)</span></a></li>
+                        <li><a title="Kids" href="#"><span>Kids</span><span>(773)</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product col col-lg-9">
+                <div class="container">
+                    <!-- DropDown Options -->
+                    <div class="row">
+                        <select class="form-control" class="form-control">
+                            <option value="defaultOption"></option>
+                            <option value="0">Price (low - high)</option>
+                            <option value="1">Newest first</option>
+                            <option value="2">Top Sellers</option>
+                            <option value="3">Price (high - low)</option>
+                            <option value="4">Customer Top Rated</option>
+                        </select>
+                    </div>
+
+                    <div class="row">
+                        <ul>
+                            <li>a</li>
+                            <li>b</li>
+                            <li>c</li>
+                            <li>d</li>
+                            <li>e</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container py-5">
+        <div class="row">
+            <div class="col-12 col-md">
+                <img style="width: 100px;" src="../image/icon/logo-footer.png">
+                <small class="d-block mb-3 text-muted">© adidas</small>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Clothes</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Jerseys</a></li>
+                    <li><a class="text-muted" href="#">T Shirts</a></li>
+                    <li><a class="text-muted" href="#">Pants</a></li>
+                    <li><a class="text-muted" href="#">Jackets</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Shoes</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Cleats</a></li>
+                    <li><a class="text-muted" href="#">Athletic & Sneakers</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Accessories</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Balls</a></li>
+                    <li><a class="text-muted" href="#">Socks</a></li>
+                    <li><a class="text-muted" href="#">Gloves</a></li>
+                    <li><a class="text-muted" href="#">Scarves</a></li>
+                    <li><a class="text-muted" href="#">Hats</a></li>
+                    <li><a class="text-muted" href="#">Shin Guards</a></li>
+                    <li><a class="text-muted" href="#">Bags</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+
+</html>
