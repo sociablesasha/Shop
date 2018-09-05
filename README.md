@@ -1,4 +1,4 @@
-# **SHOP Template
+# **SHOP Template**
 ## SHOP
 ### Purpose
 1. Using HTML, CSS, JAVASCRIPT.
