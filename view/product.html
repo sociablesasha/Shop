@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./favicon.ico">
+
+    <!-- Title -->
+    <title>Template</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+
+    <!-- GoogleFont -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
+    <!-- JQWidgets -->
+    <link rel="stylesheet" href="https://jqwidgets.com/public/jqwidgets/styles/jqx.base.css">
+
+    <!-- Custom CSS -->
+    <link href="../style/style.css" rel="stylesheet">
+    <link href="../style/product.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <nav class="site-header sticky-top py-1">
+        <div class="custom-container d-flex flex-column flex-md-row justify-content-between">
+            <a class="py-2 d-none d-md-inline-block" href="#">
+                <img src="../image/icon/logo.png" onmouseover="this.src='../image/icon/logo-action.png'" onmouseout="this.src='../image/icon/logo.png'">
+            </a>
+            <a class="py-2 d-none d-md-inline-block" href="#">
+                <img src="../image/icon/clothes.png" onmouseover="this.src='../image/icon/clothes-action.png'"
+                    onmouseout="this.src='../image/icon/clothes.png'">
+            </a>
+            <a class="py-2 d-none d-md-inline-block" href="#">
+                <img src="../image/icon/shoes.png" onmouseover="this.src='../image/icon/shoes-action.png'" onmouseout="this.src='../image/icon/shoes.png'">
+            </a>
+            <a class="py-2 d-none d-md-inline-block" href="#">
+                <img src="../image/icon/fields.png" onmouseover="this.src='../image/icon/fields-action.png'" onmouseout="this.src='../image/icon/fields.png'">
+            </a>
+            <a class="py-2 d-none d-md-inline-block" id="cart">
+                <img src="../image/icon/cart.png" onmouseover="this.src='../image/icon/cart-action.png'" onmouseout="this.src='../image/icon/cart.png'">
+                <span>3</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Shopping Cart -->
+    <div class="shopping-container">
+        <div class="shopping-cart">
+            <div class="shopping-cart-header">
+                <i class="fa fa-shopping-cart cart-icon"></i><span class="badge">3</span>
+                <div class="shopping-cart-total">
+                    <span class="lighter-text">Total:</span>
+                    <span class="main-color-text">$580</span>
+                </div>
+            </div>
+            <ul class="shopping-cart-items">
+                <li class="clearfix">
+                    <img src="https://www.adidas.com/dis/dw/image/v2/aaqx_prd/on/demandware.static/-/Sites-adidas-products/en_US/dwc7bf10c8/zoom/CG0561_000_plp_model.jpg?sw=276&sh=276&sm=fit&hei=276&wid=276&strip=false" />
+                    <span class="item-name">REAL MADRID HOME JERSEY</span>
+                    <span class="item-price">$90</span>
+                    <span class="item-quantity">Quantity: 2</span>
+                </li>
+
+                <li class="clearfix">
+                    <img src="https://www.adidas.co.uk/dis/dw/image/v2/aagl_prd/on/demandware.static/-/Sites-adidas-products/default/dwd2621eef/zoom/DB2049_00_plp_standard.jpg?sw=230&strip=false&sh=280&strip=false&sw=280" />
+                    <span class="item-name">PREDATOR 18+ FIRM GROUND</span>
+                    <span class="item-price">$280</span>
+                    <span class="item-quantity">Quantity: 1</span>
+                </li>
+
+                <li class="clearfix">
+                    <img src="https://www.adidas.com/dis/dw/image/v2/aaqx_prd/on/demandware.static/-/Sites-adidas-products/en_US/dw1895a452/zoom/CW5588_00_plp_standard.jpg?sw=276&sh=276&sm=fit&hei=276&wid=276&strip=false" />
+                    <span class="item-name">PREDATOR PRO GLOVES</span>
+                    <span class="item-price">$120</span>
+                    <span class="item-quantity">Quantity: 1</span>
+                </li>
+            </ul>
+            <a href="#" class="button">Checkout</a>
+        </div>
+    </div>
+
+    <!-- Products -->
+    <div class="custom-container product-container">
+        <div class="row">
+            <div class="col col-lg-6">
+                <div id="slide" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#slide" data-slide-to="0" class="active"></li>
+                        <li data-target="#slide" data-slide-to="1"></li>
+                        <li data-target="#slide" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto,fl_lossy/0c7ef9ebaba54998bef5a904008d8ab0_9366/X_18__Firm_Ground_Cleats_Yellow_DB2214_01_standard.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto,fl_lossy/86b62c93ac4240259e9ca904008de7ee_9366/X_18__Firm_Ground_Cleats_Yellow_DB2214_03_standard.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto,fl_lossy/2f0ab33c47364386b4c0a90300ad5849_9366/X_18__Firm_Ground_Cleats_Yellow_DB2214_02_hover_frv.jpg">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#slide" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#slide" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon slide-pointer" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col col-lg-6">
+                <div class="product">
+                    <div class="wrapper-dropdowns">
+                        <div id="dd" class="wrapper-dropdown" tabindex="1">
+                            <span>SIZE</span>
+                            <ul class="dropdown">
+                                <li><a href="#">S</a></li>
+                                <li><a href="#">M</a></li>
+                                <li><a href="#">L</a></li>
+                            </ul>
+                        </div>
+                        <div id="dd2" class="wrapper-dropdown" tabindex="1">
+                            <span>COLOR</span>
+                            <ul class="dropdown">
+                                <li><a href="#">Black</a></li>
+                                <li><a href="#">Red</a></li>
+                                <li><a href="#">White</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer custom-container py-5">
+        <div class="row">
+            <div class="col-12 col-md">
+                <img style="width: 100px;" src="../image/icon/logo-footer.png">
+                <small class="d-block mb-3 text-muted">© adidas</small>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Clothes</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Jerseys</a></li>
+                    <li><a class="text-muted" href="#">T Shirts</a></li>
+                    <li><a class="text-muted" href="#">Pants</a></li>
+                    <li><a class="text-muted" href="#">Jackets</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Shoes</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Cleats</a></li>
+                    <li><a class="text-muted" href="#">Athletic & Sneakers</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Accessories</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Balls</a></li>
+                    <li><a class="text-muted" href="#">Socks</a></li>
+                    <li><a class="text-muted" href="#">Gloves</a></li>
+                    <li><a class="text-muted" href="#">Scarves</a></li>
+                    <li><a class="text-muted" href="#">Hats</a></li>
+                    <li><a class="text-muted" href="#">Shin Guards</a></li>
+                    <li><a class="text-muted" href="#">Bags</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <!-- JQWidgets -->
+    <script src="https://jqwidgets.com/public/jqwidgets/jqx-all.js"></script>
+
+    <!-- Custom JS -->
+    <script src="../javascript/basic.js"></script>
+
+    <script src="../javascript/product.js"></script>
+</body>
+
+</html>

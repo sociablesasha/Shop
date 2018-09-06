@@ -1,0 +1,110 @@
+/* Products */
+.product-container {
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Dropdown */
+.wrapper-dropdown {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    padding: 10px;
+
+    background: #fff;
+    border-radius: 7px;
+    border: 1px solid #d9dcdd;
+    cursor: pointer;
+    outline: none;
+
+    font-size: 20px;
+    color: black;
+}
+
+.wrapper-dropdown:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: black transparent;
+}
+
+.wrapper-dropdown .dropdown {
+    display: none;
+    position: absolute;
+    top: 140%;
+    left: 0;
+    right: 0;
+    padding: 0;
+
+
+    background: white;
+    border-radius: inherit;
+    border: 1px solid #d9dcdd;
+    font-weight: normal;
+    -webkit-transition: all 0.150s ease-in;
+    -moz-transition: all 0.150s ease-in;
+    -ms-transition: all 0.150s ease-in;
+    -o-transition: all 0.150s ease-in;
+    transition: all 0.150s ease-in;
+    list-style: none;
+
+    cursor: pointer;
+}
+
+.wrapper-dropdown .dropdown:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 15px;
+    border-width: 0 6px 6px 6px;
+    border-style: solid;
+    border-color: #fff transparent;    
+}
+
+.wrapper-dropdown .dropdown:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 13px;
+    border-width: 0 8px 8px 8px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.1) transparent;    
+}
+
+.wrapper-dropdown .dropdown li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #e6e8ea;
+    -webkit-transition: all 0.150s ease-out;
+    -moz-transition: all 0.150s ease-out;
+    -ms-transition: all 0.150s ease-out;
+    -o-transition: all 0.150s ease-out;
+    transition: all 0.150s ease-out;
+}
+
+.wrapper-dropdown .dropdown li:first-of-type a {
+    border-radius: 7px 7px 0 0;
+}
+
+.wrapper-dropdown .dropdown li:last-of-type a {
+    border: none;
+    border-radius: 0 0 7px 7px;
+}
+
+.wrapper-dropdown.active .dropdown {
+    display: block;
+}
