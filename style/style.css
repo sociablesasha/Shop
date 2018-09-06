@@ -2,6 +2,13 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
+.custom-container {
+    width: 100%;
+    height: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
 .row {
     margin: 0;
     padding: 0;
@@ -14,10 +21,6 @@ body {
 
 a:hover {
     text-decoration: none;
-}
-
-.container {
-    max-width: 960px;
 }
 
 .site-header {
@@ -41,4 +44,8 @@ a:hover {
 
 .slide-pointer {
     color: rgba(0, 0, 0, .85);
+}
+
+.footer {
+    background-color: lightgray;
 }

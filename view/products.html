@@ -34,7 +34,7 @@
 <body>
     <!-- Header -->
     <nav class="site-header sticky-top py-1">
-        <div class="container d-flex flex-column flex-md-row justify-content-between">
+        <div class="custom-container d-flex flex-column flex-md-row justify-content-between">
             <a class="py-2 d-none d-md-inline-block" href="#">
                 <img src="../image/icon/logo.png" onmouseover="this.src='../image/icon/logo-action.png'" onmouseout="this.src='../image/icon/logo.png'">
             </a>
@@ -53,7 +53,7 @@
         </div>
     </nav>
 
-    <div class="container products-container">
+    <div class="custom-container products-container">
         <!-- Products -->
         <div class="row products-section">
             <div class="col">
@@ -92,9 +92,13 @@
                     <div class="sidebar_container">
                         <div class="sidebar-type">Color</div>
                         <ul class="sidebar-content">
-                            <li><a href="#"><span>Men</span><span>(773)</span></a></li>
-                            <li><a href="#"><span>Women</span><span>(773)</span></a></li>
-                            <li><a href="#"><span>Kids</span><span>(773)</span></a></li>
+                            <li class="d-inline-block"><a href="#"><div class="color" style="background-color: black;"></div></a></li>
+                            <li class="d-inline-block"><a href="#"><div class="color" style="background-color: gray;"></div></a></li>
+                            <li class="d-inline-block"><a href="#"><div class="color" style="background-color: white;"></div></a></li>
+                            <li class="d-inline-block"><a href="#"><div class="color" style="background-color: green;"></div></a></li>
+                            <li class="d-inline-block"><a href="#"><div class="color" style="background-color: dodgerblue;"></div></a></li>
+                            <li class="d-inline-block"><a href="#"><div class="color" style="background-color: orangered;"></div></a></li>
+                            <li class="d-inline-block"><a href="#"><div class="color" style="background-color: plum;"></div></a></li>
                         </ul>
                     </div>
                 </div>
@@ -104,71 +108,17 @@
                     <!-- DropDown Options -->
                     <div class="row">
                         <div id="dd" class="wrapper-dropdown" tabindex="1">
-                            <span>Transport</span>
+                            <span>SORT BY</span>
                             <ul class="dropdown">
-                                <li><a href="#">Classic mail</a></li>
-                                <li><a href="#">UPS Delivery</a></li>
-                                <li><a href="#">Private jet</a></li>
+                                <li><a href="#">Price (Low - High)</a></li>
+                                <li><a href="#">Price (High - Low)</a></li>
+                                <li><a href="#">Newest First</a></li>
+                                <li><a href="#">Customer Top Rated</a></li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="row product-container">
-                        <div class="product-viewer">
-                            <img src="https://www.adidas.co.uk/dis/dw/image/v2/aagl_prd/on/demandware.static/-/Sites-adidas-products/default/dwd2621eef/zoom/DB2049_00_plp_standard.jpg?sw=230&strip=false&sh=280&strip=false&sw=280">
-                            <div class="product-content">
-                                <div>PREDATOR 18+ FIRM GROUND</div>
-                                <div>$280</div>
-                            </div>
-                            <div class="product-subcontent">
-                                <span>★★★★☆</span>
-                                <span>3 Colors</span>
-                            </div>
-                        </div>
-                        <div class="product-viewer">
-                            <img src="https://www.adidas.co.uk/dis/dw/image/v2/aagl_prd/on/demandware.static/-/Sites-adidas-products/default/dwd2621eef/zoom/DB2049_00_plp_standard.jpg?sw=230&strip=false&sh=280&strip=false&sw=280">
-                            <div class="product-content">
-                                <div>PREDATOR 18+ FIRM GROUND</div>
-                                <div>$280</div>
-                            </div>
-                            <div class="product-subcontent">
-                                <span>★★★★☆</span>
-                                <span>3 Colors</span>
-                            </div>
-                        </div>
-                        <div class="product-viewer">
-                            <img src="https://www.adidas.co.uk/dis/dw/image/v2/aagl_prd/on/demandware.static/-/Sites-adidas-products/default/dwd2621eef/zoom/DB2049_00_plp_standard.jpg?sw=230&strip=false&sh=280&strip=false&sw=280">
-                            <div class="product-content">
-                                <div>PREDATOR 18+ FIRM GROUND</div>
-                                <div>$280</div>
-                            </div>
-                            <div class="product-subcontent">
-                                <span>★★★★☆</span>
-                                <span>3 Colors</span>
-                            </div>
-                        </div>
-                        <div class="product-viewer">
-                            <img src="https://www.adidas.co.uk/dis/dw/image/v2/aagl_prd/on/demandware.static/-/Sites-adidas-products/default/dwd2621eef/zoom/DB2049_00_plp_standard.jpg?sw=230&strip=false&sh=280&strip=false&sw=280">
-                            <div class="product-content">
-                                <div>PREDATOR 18+ FIRM GROUND</div>
-                                <div>$280</div>
-                            </div>
-                            <div class="product-subcontent">
-                                <span>★★★★☆</span>
-                                <span>3 Colors</span>
-                            </div>
-                        </div>
-                        <div class="product-viewer">
-                            <img src="https://www.adidas.co.uk/dis/dw/image/v2/aagl_prd/on/demandware.static/-/Sites-adidas-products/default/dwd2621eef/zoom/DB2049_00_plp_standard.jpg?sw=230&strip=false&sh=280&strip=false&sw=280">
-                            <div class="product-content">
-                                <div>PREDATOR 18+ FIRM GROUND</div>
-                                <div>$280</div>
-                            </div>
-                            <div class="product-subcontent">
-                                <span>★★★★☆</span>
-                                <span>3 Colors</span>
-                            </div>
-                        </div>
                         <div class="product-viewer">
                             <img src="https://www.adidas.co.uk/dis/dw/image/v2/aagl_prd/on/demandware.static/-/Sites-adidas-products/default/dwd2621eef/zoom/DB2049_00_plp_standard.jpg?sw=230&strip=false&sh=280&strip=false&sw=280">
                             <div class="product-content">
@@ -286,7 +236,7 @@
     </div>
 
     <!-- Footer -->
-    <footer class="container py-5">
+    <footer class="footer custom-container py-5">
         <div class="row">
             <div class="col-12 col-md">
                 <img style="width: 100px;" src="../image/icon/logo-footer.png">

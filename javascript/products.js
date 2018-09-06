@@ -30,7 +30,7 @@ DropDown.prototype = {
             var opt = $(this);
             obj.val = opt.text();
             obj.index = opt.index();
-            obj.placeholder.text(obj.val);
+            obj.placeholder.text(obj.val.toUpperCase());
         });
     },
     getValue: function () {
