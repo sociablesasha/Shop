@@ -97,6 +97,7 @@
 }
 
 .wrapper-dropdown .dropdown {
+    display: none;
     position: absolute;
     top: 140%;
     left: 0;
@@ -115,7 +116,6 @@
     transition: all 0.150s ease-in;
     list-style: none;
 
-    opacity: 0;
     cursor: pointer;
 }
 
@@ -166,7 +166,7 @@
 }
 
 .wrapper-dropdown.active .dropdown {
-    opacity: 1;
+    display: block;
 }
 
 

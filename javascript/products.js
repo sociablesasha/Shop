@@ -9,9 +9,11 @@ $(".sidebar-type").on("click", function () {
     }
 })
 
+var test;
 function DropDown(el) {
     this.dd = el;
     this.placeholder = this.dd.children('span');
+    this.dropdown = this.dd.find('.dropdown');
     this.opts = this.dd.find('ul.dropdown > li');
     this.val = '';
     this.index = -1;
