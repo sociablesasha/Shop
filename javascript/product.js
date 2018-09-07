@@ -47,6 +47,7 @@ $(function () {
 
     var dd = new DropDown($('#dd'));
     var dd2 = new DropDown($('#dd2'));
+    var dd3 = new DropDown($('#dd3'));
 
     $(document).click(function () {
         $('.wrapper-dropdown').removeClass('active');

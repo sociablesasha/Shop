@@ -1,9 +1,9 @@
-/* Products */
+/* Product */
 .product-container {
     font-family: 'Open Sans Condensed', sans-serif;
     position: relative;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /* Dropdown */
@@ -107,4 +107,66 @@
 
 .wrapper-dropdown.active .dropdown {
     display: block;
+}
+
+.product {
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.product-head {
+    margin-bottom: 100px;
+}
+
+.product-title {
+    font-size: 50px;
+}
+
+.product-price {
+    font-size: 25px;
+}
+
+.product-star {
+    float: right;
+    font-size: 25px;
+}
+
+.product-body {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.product-footer {
+    font-size: 25px;
+}
+
+.product-button {
+    margin-top: 50px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.product-description {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.product-images {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
